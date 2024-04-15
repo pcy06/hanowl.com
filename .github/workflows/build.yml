@@ -53,3 +53,13 @@ jobs:
           platforms: |
             linux/amd64
             linux/arm64
+
+      - name: Update Helm Chart Values
+        uses: Nextdoor/helm-set-image-tag-action@main
+        with:
+          values_files: chart/values.yaml
+          tag_keys: .image.tag
+          tag_value: ${{ github.sha }}
+          commit_branch: main
+          commit_tag: ${{ github.ref }}-chart
+          commit_options: "-n"
