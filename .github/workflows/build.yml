@@ -1,4 +1,4 @@
-name: Docker
+name: Build and Upload
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -53,4 +53,3 @@ jobs:
           platforms: |
             linux/amd64
             linux/arm64
-            linux/arm/v7
