@@ -3,7 +3,7 @@ namespace: application
 image:
   repository: ghcr.io/pcy06/hanowl.com
   pullPolicy: IfNotPresent
-  tag: "808fedac27a938c54b88fc54da4e031ba217b1c5"
+  tag: "4899f0a9e61212cc64b8d2113d3d546b5f58ec35"
 imagePullSecrets: [{"name": "ghcr-pcy06"}]
 podAnnotations: {}
 podLabels: {}
