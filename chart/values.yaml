@@ -3,7 +3,7 @@ replicaCount: 2
 namespace: application
 
 image:
-  repository: ghcr.io/pcy06/hanowl-recruit
+  repository: ghcr.io/pcy06/hanowl.com
   pullPolicy: IfNotPresent
   tag: "v3"
 
