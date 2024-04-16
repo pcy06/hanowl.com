@@ -61,5 +61,5 @@ jobs:
           tag_keys: .image.tag
           tag_value: ${{ github.sha }}
           commit_branch: main
-          commit_tag: ${{ github.ref }}-chart
+          commit_tag: ${{ github.sha }}-chart
           commit_options: "-n"
