@@ -1,20 +1,14 @@
 replicaCount: 2
-
 namespace: application
-
 image:
   repository: ghcr.io/pcy06/hanowl.com
   pullPolicy: IfNotPresent
-  tag: "v3"
-
-imagePullSecrets: [{"name" : "ghcr-pcy06"}]
-
+  tag: "edc3be29817dacfbb408ee92d11c2bfcb5e465f6"
+imagePullSecrets: [{"name": "ghcr-pcy06"}]
 podAnnotations: {}
 podLabels: {}
-
 service:
   type: ClusterIP
-
 ingress:
   enabled: true
   className: "nginx"
