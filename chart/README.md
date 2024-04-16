@@ -1,6 +1,6 @@
 # hanowl-recruit
 
-![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.0.0](https://img.shields.io/badge/AppVersion-1.0.0-informational?style=flat-square)
+![Version: 1.0.2](https://img.shields.io/badge/Version-1.0.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.0.0](https://img.shields.io/badge/AppVersion-1.0.0-informational?style=flat-square)
 
 Hanowl Recruit Frontend Web Application
 
@@ -10,7 +10,7 @@ Hanowl Recruit Frontend Web Application
 |-----|------|---------|-------------|
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.repository | string | `"ghcr.io/pcy06/hanowl.com"` |  |
-| image.tag | string | `"edc3be29817dacfbb408ee92d11c2bfcb5e465f6"` |  |
+| image.tag | string | `"808fedac27a938c54b88fc54da4e031ba217b1c5"` |  |
 | imagePullSecrets[0].name | string | `"ghcr-pcy06"` |  |
 | ingress.annotations | object | `{}` |  |
 | ingress.className | string | `"nginx"` |  |
